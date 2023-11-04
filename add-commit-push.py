@@ -22,6 +22,12 @@ elif commit_user_response == "n":
 else:
      print("Error")
 
+push_user_response = input("Would you like to push these changes? Y/N: ")
+if commit_user_response == "y":
+    os.system("git push")
+elif commit_user_response == "n":
+     os.abort
+else:
+     print("Error")
 
-message = input("Enter your commit message: ")
         
