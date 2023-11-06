@@ -14,7 +14,7 @@ elif add_user_response == "-f":
      os.system("git push")
      exit = input("Type 'e' to exit: ")
      if exit == "e":
-          os.system("exit")
+          os.system("Exit")
 
 else:
      print("Error")
