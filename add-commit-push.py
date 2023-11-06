@@ -3,7 +3,7 @@ import os
 
 os.system("git status")
 
-add_user_response = input("would you like to add? Y/N:  ")
+add_user_response = input("would you like to add? Y/N ('-f')to force:  ")
 if add_user_response == "y":
     os.system("git add -A")
 elif add_user_response == "n":
@@ -12,6 +12,7 @@ elif add_user_response == "-f":
      os.system("git add -A")
      os.system("git commit -m force")
      os.system("git push")
+     os.close
 else:
      print("Error")
 
