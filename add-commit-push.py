@@ -12,7 +12,7 @@ elif add_user_response == "-f":
      os.system("git add -A")
      os.system("git commit -m force")
      os.system("git push")
-     os.close
+     os.abort
 else:
      print("Error")
 
