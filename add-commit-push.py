@@ -8,6 +8,10 @@ if add_user_response == "y":
     os.system("git add -A")
 elif add_user_response == "n":
      os.abort
+elif add_user_response == "-f":
+     os.system("git add -A")
+     os.system("git commit -m force")
+     os.system("git push")
 else:
      print("Error")
 
