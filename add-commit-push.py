@@ -1,5 +1,5 @@
 import os
-
+import subprocess
 
 os.system("git status")
 
@@ -14,7 +14,7 @@ elif add_user_response == "-f":
      os.system("git push")
      exit = input("Type 'e' to exit: ")
      if exit == "e":
-          os.system("Exit")
+          subprocess.run("Exit", shell=True)
 
 else:
      print("Error")
