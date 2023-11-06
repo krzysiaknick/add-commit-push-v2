@@ -13,7 +13,7 @@ else:
 
 
 commit_user_response = input("would you like to commit? Y/N:  ")
-message = input("Enter your commit message: ")
+message = input("Enter your commit message (Use dashes (-) as spaces): ")
         
 if commit_user_response == "y":
     os.system("git commit -m" + message)

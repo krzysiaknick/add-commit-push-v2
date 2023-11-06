@@ -22,7 +22,6 @@ intended directory and excecute the script more efficently.
 Typin the command "g5" in powersehll takes you to my Git repository for this assignment
 Typing "acp" executes the Python script
 
-
-##   function g5 {cd "C:\Users\krzys\lewis\cpsc-20000\sprint-5\add-commit-push-v2"}
-##   function acp {python C:\Users\krzys\lewis\cpsc-20000\sprint-5\add-commit-push-v2\add-commit-push.py}
+function g5 {cd "C:\Users\krzys\lewis\cpsc-20000\sprint-5\add-commit-push-v2"}
+function acp {python C:\Users\krzys\lewis\cpsc-20000\sprint-5\add-commit-push-v2\add-commit-push.py}
 
